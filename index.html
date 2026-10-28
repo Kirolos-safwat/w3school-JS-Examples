@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Task S26</title>
+  </head>
+
+  <body>
+    <div class="container-fluied">
+      <dev class="flex flex-col justify-center items-center mt-75">
+        <h2 class="color-red p-5 text-2xl text-[#0a2f71]">
+          Know The Time & Date Now!
+        </h2>
+        <button
+          class="text-[#679fca] border-[##679fca] bg-[#020f2e] hover:text-[#020f2e] hover:border-[#020f2e] hover:bg-[#679fca] text-center p-3 border-2 rounded-2xl text-xl transition delay-100 duration-300 ease"
+          id="button-date"
+        >
+          Click
+        </button>
+        <h3
+          class="text-center text-xl text-[#0a2f71] p-5"
+          id="date-result"
+        ></h3>
+      </dev>
+      <dev class="flex justify-center items-end mt-5">
+        <button
+          class="text-[#DDD92A] border-[##DDD92A] bg-[#020f2e] hover:text-[#020f2e] hover:border-[#020f2e] hover:bg-[#DDD92A] text-center p-3 border-2 rounded-2xl text-xl transition delay-100 duration-300 ease"
+          id="button-on"
+        >
+          Turn on the light
+        </button>
+        <img id="lamp" src="./images/pic_bulboff.gif" alt="" />
+        <button
+          class="text-[#DDD92A] border-[##DDD92A] bg-[#020f2e] hover:text-[#020f2e] hover:border-[#020f2e] hover:bg-[#DDD92A] text-center p-3 border-2 rounded-2xl text-xl transition delay-100 duration-300 ease"
+          id="button-off"
+        >
+          Turn off the light
+        </button>
+      </dev>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
